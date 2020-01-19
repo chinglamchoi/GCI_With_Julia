@@ -1,0 +1,9 @@
+LICENSING PHRASE
+
+This design was created by Choi Ching Lam, as part of the Google Code In competition, Julia track. Do whatever you want with it.
+
+Media used include:
+1. Julia's logo (from the linked Julia Github)
+2. ECG Heartbeat graph:
+	- Link: https://pixabay.com/illustrations/heart-rate-pulse-live-line-wave-459225/
+	- Details: The image is listed under the "Pixabay License" : "Free for commercial use", "No attribution required"
