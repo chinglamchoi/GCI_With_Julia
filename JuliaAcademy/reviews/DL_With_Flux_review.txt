@@ -1,0 +1,24 @@
+1. General Things:
+- Can integrate quizzes; videos can be broken down into separte, shorter ones; amazing plots and visualisation (esp the contour plots and visualising decision boundaries for multi-dimensional data)
+
+2. Handwritten & Built-in Functions
+Really liked how he included both handwritten and built-in methods of building aspects of the model (e.g. custom-building activation functions, optimisers, etc). The handwritten functions tutorial is useful in understanding the mechanisms behind each Flux built-in function, and also comes in handy when you have to try to define you own custom functions for your architecture (mobilenet's relu6 activation comes to mind).
+
+3. Very Well-Explained
+Amazing how he used linear transformation to explain how model complexity is aggregated (using multilpe lienar layers doesn't make a complex model at all). Also, I really appreciate how he elaborated on which loss function to choose and why, such as through plotting MSE & Cross Entropy and visualising their domains. It's also great that he decompiled the model architecture, showing us the code and logic behind each function.
+
+4. Very Easy to Follow & Recreate:
+A lot of tutorials skip right to defining the model architecture & training process and omit the data loading (creating one-hot labels, batches, etc) and visualisation. Knowledge taught in this course fully equips us to use Flux on our own custom datasets.
+
+5. More on GPU Acceleration
+Perhaps more could have been said about GPU acceleration and how to leverage the power of CUDA. It would also be nice to cover CuArrays and GPU VRAM memory allocation, as it seems like OutofMemory errors are common issues when training with GPUs.
+
+6. A Bit More on Choosing Hyperparameters & Optimisers
+- Adam versus SGD versus AMSGrad, and stability problems
+- effect of learning rate on convergence and learning weight decay
+- effect of batch size on generalisation, memory, speed (Yann LeCun: "Friends dont let friends use minibatches larger than 32.")
+- I think the instructor could have expatiated on hyperparameter tuning
+
+7. Some Advanced Topics
+- It would have been nice to go over how one could create skip connections in Flux. While it is quite challenging to do so, many baseline (Resnet) and state-of-the-art methods (Efficient-Net, based on Mobilenet v2) utilise skip connections for accuracy gains with deep models, making skip connections an extremely relevant topic in ML with Flux.
+- Would have been nice to cover transfer learning, how to load pre-trained weights on Imagenet for finetuning on custom datasets. This is a widely used and very potent technique, I'm sure it would have been useful to students!

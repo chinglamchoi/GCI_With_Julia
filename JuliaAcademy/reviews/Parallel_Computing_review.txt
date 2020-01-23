@@ -1,0 +1,24 @@
+1. Really appreciated the fine-grained explanations about how each little part of the code can impact the performance:
+- e.g. data type: float32 vs float64
+- using profile to determine which line of the function (e.g. moving data) is taking up time and needs optimisation
+- benchmarking handwritten versus built in functions
+- comparing and contrasting between different languages (C, Python (Numpy))
+
+2. Really liked how he outlined the purpose, criteria and impact of each action before proceeding.
+- e.g. giving an overview of the reasons, methods and challenges for parallel processing
+- outlines the criteria (what he's looking for in benchmarking) before benchmarking
+- This makes it much easier for us to follow and understand the purpose behind everything he does
+
+3. Although it was nice that he took the time to explain very test case (even just general programming concepts), perhaps it would be useful to cut straight to the chase and focus on benchmarking. But then again, I really appreciated how he went over the functions of each library, interpreting the output with us, teaching us which types/lines of output to attend to. Also, it was extremely helpful that he went over the best practices (for example in the SIMD video) and things to watch out for (e.g. not to use if-else, AX-512 support, verifying the number of cores, oversubscription, false sharing), when going over each library.
+
+4. Perhaps the videos can be broken down to separate shorter ones. dividing them makes them easier to conquer and understand!
+
+5. Also, this is rather advanced knowledge, so perhaps more short quizzes(though they already are some integrated into the course lectures) could be added at the end of each section to help better consolidate knowledge
+
+6. I really liked the approach he used to illustrate the virtues of parallelism. He quoted real life data (moore's law plateuing for single core processing) as well as used benchmarking, profiling, vectorisation, multithreading versus versus atomics to empirically illustrate the benefits for parallel computing.
+
+7. The audio quality for the Performance Overview lecture and onwards were slightly echo-y and unclear
+
+8. Really liked how he has short summaries ("Take aways from X") as sort of a conclusion to each new concept
+
+9. Really nice that he explained exactly what operation GPU accelerates (mat mul), I'd always wondered! Furthermore, I loved how he explained the parallel processing capabilities of GPU down to the hardware "warp" level! The amount of detail in this course is amazing!

@@ -1,0 +1,8 @@
+1. Visual and clear
+I really appreciated how the instructor used plots and interact.jl to illustrate various concepts. His demonstration for adjusting the weights and bias was genius! By visualising the graph of sigmoid, the instructor is able to intuitively explain both the concept of a discriminative decision boundary and gradient descent, which is hugely impressive!
+
+2. Maths and intuition
+It was nice that the instructor touched on some maths behind the algorithms, but perhaps a bit more elaboration would be helpful. For instance, dot product isn't exactly intuitive but is a crucial concept to understand in ML. While offering the Wikipedia definition of "the product of the Euclidean magnitudes of the two vectors and the cosine of the angle between them" might not be suitable for a foundations course, perhaps he could said something along the lines of "it is useful in determining the similarity (in terms of vector directions) of 2 vectors", which saves a lot of trouble later understanding things like triplet loss and attention mechanisms. Moreover, I think it would be nice to expatiate a bit more on the update rule for gradient descent. Deriving the update rule to the weights would be nice!
+
+3. Covering more concepts
+The instructor mentioned that Sum of Squares error was nice to work with using Gradient Descent but didn't say why. It might be nice to cover concepts of convexity and convergence. Also, perhaps more discussion on overfitting would have been helpful. Topics like the bias-variance tradeoff (while slightly outdated in the era of big data), size of dataset, train-valid-test split are very interesting!

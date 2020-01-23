@@ -1,0 +1,16 @@
+1. VQA is no easy beginner task, it is a cross-modal task and requires knowledge of attention mechanisms as well
+- Might not be the most ideal first lecture (after intro) for a course
+
+2. Although I really appreciate that he provided the paper for us as reference, some basic overview or summary on the paper would have been nice before jumping straight in and running the code. Elaboration on the contributions, results and distinctions of the paper & its method would really have enriched the lecture.
+
+3. Really appreciated how he plotted the image attention map and tested the program using custom questions, but how does it all work?? How did they encode the image features? What attention mechanism did they use? How did they encode the sentences? Word2vec? Transformer? How did they map text and image features into joint (cross-modal) feature space? How did they quantify the similarity between image vectors and word vectors?
+- This also true with MNIST, Sentiment Analysis, VGG, where there wasn't a lot of explanation on the methods used.
+- Language modeling was explained in great detail though!
+
+4 The organisation of lectures was slightly confusing. MNIST and image classification are much more basic tasks than VQA, yet VQA was touched on first. Perhaps re-ordering the lectures could better build up students' knowledge, thus enabling the instructor to elaborate more on the details of various papers.
+
+5. The code in the MNIST notebook was very comprehensive. The code walks us through firstly, setting up the dataset; secondly, defining our model architecture; eventually, hyperparameter tuning and training; which enables us to reliably reproduce results of the notebook. It would have been even better if the instructor explained the theory behind the code (e.g. going over the layers of lenet, briefly talking about the effect of strides and paddings, touching on how and why (semantic deep features) channels are added, while the physical image dimensions are downsized.
+
+6. I really appreciate how he plotted graphs to compare and contrast between the performance of different models (MLP vs CNN), and visualised their loss over epochs.
+
+7. Instead of only demoing pre-trained language and image models, perhaps the instructor could have implemented one basic model with us (e.g. the MNIST model). I can see that Knet works is very convenient, but I have no idea how anything works and how I can customise network functions/architecture.

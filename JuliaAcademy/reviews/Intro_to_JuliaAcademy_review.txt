@@ -1,0 +1,3 @@
+It's already very detailed and easy to follow, but perhaps adding a video of the installation process would make it even clearer.
+
+Perhaps the installation and activation process could be segmented into 3 parts for the 3 main operating systems. This is especially true for interact, where the course only covers installation procedures for MacOS.

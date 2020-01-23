@@ -1,0 +1,21 @@
+Positives:
+
+1. Very interactive and easy to follow (except the last lecture)
+I really appreciate how the instructor chose to use IPython notebooks to teach instead of jl files, and provided the code for each lecture for reference. This makes the course very easy to follow along with, especially for those who are uncomfortable with command line interfaces.
+
+2. Very detailed and clear
+Every notebook is annotated very clearly with markdown. This is especially helpful for later lectures which cover linear algebra: the latex explains the code very well, making it possible for complete beginners to understand. Also, I really like how the instructor compares Julia and Python, differences between different data structures (tuple vs array), effects of different methods of declaring strings – this fine-grained teaching style really allows students to gain sound understanding of Julia and its unique advantages.
+
+3. Others
+I really enjoyed the generous amount of maths integrated into the course, as well as how she eased us into more advanced topics like plotting and linear algebra with Julia.
+
+Less-positives
+
+1. More quizzes please
+The short quiz was useful in consolidating knowledge, it would be even better if more quizzes were included in the course after each section.
+
+2. Variable scopes
+Although the explanations were very detailed overall, we could have used more elaboration, especially on the scope of variables in the loops & conditionals & functions section. People who learned e.g. Python first will likely have some trouble adjusting to Julia variable scopes.
+
+3. Difficulty of last lecture
+I think the last lecture was a little too advanced to be included in an introductory course. Perhaps it could be allocated to another course which focuses on linear algebra/calculus with Julia.
